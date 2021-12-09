@@ -11,43 +11,45 @@ input.onGesture(Gesture.Shake, function () {
             `)
     } else if (zahl == 2) {
         basic.showLeds(`
+            . . . . #
             . . . . .
-            . # . . .
             . . . . .
-            . . . # .
             . . . . .
+            # . . . .
             `)
     } else if (zahl == 3) {
         basic.showLeds(`
+            . . . . #
             . . . . .
-            . # . . .
             . . # . .
-            . . . # .
             . . . . .
+            # . . . .
             `)
     } else if (zahl == 4) {
         basic.showLeds(`
+            # . . . #
             . . . . .
-            . # . # .
             . . . . .
-            . # . # .
             . . . . .
+            # . . . #
             `)
     } else if (zahl == 5) {
         basic.showLeds(`
+            # . . . #
             . . . . .
-            . # . # .
             . . # . .
-            . # . # .
             . . . . .
+            # . . . #
             `)
     } else if (zahl == 6) {
         basic.showLeds(`
+            # . . . #
             . . . . .
-            . # . # .
-            . # . # .
-            . # . # .
+            # . . . #
             . . . . .
+            # . . . #
             `)
     }
+    basic.pause(2500)
+    basic.clearScreen()
 })
